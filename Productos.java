@@ -1,4 +1,4 @@
-public class Productos {
+public class Producto {
   private int id;
   private String nombre;
   private String categoria;
@@ -13,15 +13,15 @@ public class Productos {
   }
 
   public int getId() { return id; }
-  public String getnombre(){return nombre;}
-  public int getstock(){return stock;}
-  public float getprecio(){return precio;}
-  public String getcategoria(){return categoria;}
-  public void setid(int id){this.id=id;}
+  public String getNombre(){return nombre;}
+  public int getStock(){return stock;}
+  public float getPrecio(){return precio;}
+  public String getCategoria(){return categoria;}
+  public void setId(int id){this.id=id;}
   public void setNombre(String nombre) { this.nombre = nombre; }
-  public void setcategoria(String categoria) { this.categoria = categoria; }
-  public void setprecio (float precio) { this.precio = precio; }
-  public  void setstock(int stock){this.stock=stock;}
+  public void setPategoria(String categoria) { this.categoria = categoria; }
+  public void setPrecio (float precio) { this.precio = precio; }
+  public  void setStock(int stock){this.stock=stock;}
 
   @Override
   public String toString() {
