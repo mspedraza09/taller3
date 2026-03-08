@@ -1,10 +1,10 @@
-public class productos {
+public class Productos {
   private int id;
   private String nombre;
   private String categoria;
   private float precio;
   private int stock; 
-  public productos(int id, String nombre, String categoria, float precio, int stock) {
+  public Productos(int id, String nombre, String categoria, float precio, int stock) {
     this.id = id;
     this.nombre = nombre;
     this.categoria = categoria;
